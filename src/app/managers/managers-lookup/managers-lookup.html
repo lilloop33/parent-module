@@ -1,0 +1,43 @@
+<div class="outer bg bg--mud">
+	<section class="inner managers-lookup container-fluid">
+		<div class="managers-lookup__item-a">ITEM A</div>
+		<div class="managers-lookup__item-b">ITEM B</div>
+
+		<div>
+			<br />
+			<br />
+			<br />
+			<br />
+			<div>common</div>
+			<div>
+				<div class="form-group col-sm-6 col-md-12">
+					<label class="form__label"
+								 for="filter-company-name">
+						Company name
+					</label>
+					<input
+						class="form__input form-control"
+						id="filter-company-name"
+						name="companyName"
+						ng-model="vm.form.companyName"
+						ng-change="vm.onFilter()"
+						placeholder="The Daily Planet">
+				</div>
+
+				<div class="form-group col-sm-6 col-md-12">
+					<label class="form__label"
+								 for="filter-professional-name">
+						Name of the professional
+					</label>
+					<input
+						class="form__input form-control"
+						id="filter-professional-name"
+						name="nameOfTheProfessional"
+						ng-model="vm.form.nameOfTheProfessional"
+						ng-change="vm.onFilter()"
+						placeholder="Clark Kent">
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

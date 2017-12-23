@@ -1,0 +1,19 @@
+@import "../../common/tools";
+
+.managers-lookup {
+
+	&__container {
+		padding: 2.5em 0;
+	}
+
+	&__item-a {
+		border: 1px solid green;
+		padding: 1em;
+	}
+
+	&__item-b {
+		border: 1px solid red;
+		padding: 1em;
+	}
+
+}
